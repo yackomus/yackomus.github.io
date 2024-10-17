@@ -23,7 +23,7 @@ _site/
 Gemfile.lock
 
 # I added
-dist/_file
-dist/_import
-dist/_npm
-dist/_observablehq
+docs/_file
+docs/_import
+docs/_npm
+docs/_observablehq
