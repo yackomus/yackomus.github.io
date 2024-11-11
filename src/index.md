@@ -4,9 +4,16 @@ toc: false
 
 <div class="hero">
   <h1>Yackomus</h1>
-  <h2>Welcome to your new app! Edit&nbsp;<code style="font-size: 90%;">src/index.md</code> to change this page.</h2>
+  <h2>Olá! O objetivo por aqui será o de aprender um pouco mais sobre Observable e análise de dados fazendo uso de informações gerais sobre o Brasil, de modo a tentar estabelecer um tipo de simbiose entre esses dois aprendizados... rss</h2>
   <a href="https://observablehq.com/framework/getting-started">Get started<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
 </div>
+
+
+<!-- <div class="hero">
+  <h1>Yackomus</h1>
+  <h2>Welcome to your new app! Edit&nbsp;<code style="font-size: 90%;">src/index.md</code> to change this page.</h2>
+  <a href="https://observablehq.com/framework/getting-started">Get started<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
+</div> -->
 
 <div class="grid grid-cols-2" style="grid-auto-rows: 504px;">
   <div class="card">${

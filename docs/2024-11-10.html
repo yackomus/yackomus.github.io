@@ -154,17 +154,18 @@ resize((width) => vehicleChart(launches, {width}))
     <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
     <li class="observablehq-link"><a href="./">Yackomus 🐈‍⬛</a></li>
   </ol>
-  <section>
+  <section class="observablehq-section-active">
     <summary>Examples</summary>
     <ol>
-    <li class="observablehq-link"><a href="./2024-11-10">Ideia geral 🐈‍</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./2024-11-10">Ideia geral 🐈‍</a></li>
     </ol>
   </section>
 </nav>
 <script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
-<h1 id="rocket-launches" tabindex="-1"><a class="observablehq-header-anchor" href="#rocket-launches">Rocket launches 🚀</a></h1>
+<h1 id="ideia-geral" tabindex="-1"><a class="observablehq-header-anchor" href="#ideia-geral">Ideia geral 🐈‍⬛</a></h1>
+<p>Tenho um conjunto de interesses que se torna peculiar por sua diversidade: arte, filosofia, literatura, matemática, economia, etc.</p>
 <!-- Load and transform the data -->
 <div class="observablehq observablehq--block"><!--:7a66a2dd:--></div>
 <!-- A shared color scale for consistency, sorted by the number of launches -->
@@ -205,6 +206,7 @@ resize((width) => vehicleChart(launches, {width}))
 <p>Data: Jonathan C. McDowell, <a href="https://planet4589.org/space/gcat" target="_blank" rel="noopener noreferrer">General Catalog of Artificial Space Objects</a></p>
 </main>
 <footer id="observablehq-footer">
+<nav><a rel="prev" href="./"><span>Yackomus 🐈‍⬛</span></a></nav>
 <div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2024-11-10T21:18:54">Nov 10, 2024</a>.</div>
 </footer>
 </div>
